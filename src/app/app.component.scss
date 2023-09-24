@@ -1,7 +1,9 @@
 .example-spacer {
   flex: 1 1 auto;
 }
-
+.link {
+  cursor: pointer;
+}
 mat-form-field {
   margin-top: 20px;
   width: 100px;

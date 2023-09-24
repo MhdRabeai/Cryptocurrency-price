@@ -1,0 +1,82 @@
+.header {
+  height: 40%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 2.75rem;
+    line-height: 1.2;
+    letter-spacing: -0.0083em;
+  }
+  h6 {
+    color: darkgray;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+  }
+}
+.banner {
+  background-image: url("../../assets/banner2.jpg");
+  height: 400px;
+  width: 100%;
+}
+.sub-header {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  .row {
+    --bs-gutter-x: 7rem;
+    flex-wrap: nowrap;
+  }
+}
+.card {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  margin: 40px;
+  width: 120px;
+  height: 200px;
+  img {
+    width: 75px;
+    margin: 0 auto;
+  }
+  h5 {
+    font-weight: 500;
+  }
+  p {
+    font-weight: 700;
+  }
+}
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+tr {
+  cursor: pointer;
+}
+.mat-mdc-paginator-outer-container {
+  background-color: rgb(36, 37, 37);
+}
+.mat-mdc-header-row {
+  background-color: #009688;
+}
+tr.mat-mdc-row {
+  height: 70px;
+}
